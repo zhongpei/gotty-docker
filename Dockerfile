@@ -13,7 +13,6 @@ RUN apt-get -y update && \
 
 
 COPY /run_gotty.sh /run_gotty.sh
-
 RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.2/zsh-in-docker.sh)"
 
 RUN chmod 744 /run_gotty.sh

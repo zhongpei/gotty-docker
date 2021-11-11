@@ -14,12 +14,12 @@ This gotty based on ubuntu Linux., having:
 
 After docker installation, execute this command to bake a docker image in a terminal:
 ```console
-docker build -t modenaf360/gotty:latest .
+docker build -t zhongpei/gotty:latest .
 ```
 
 #### Let's run gotty docker
 ```console
-docker run -p 8989:8080 -d --name gotty -it  modenaf360/gotty:latest
+docker run -p 8989:8080 -d --name gotty -it  zhongpei/gotty:latest
 ```
 
  You can use docker-compose templete
@@ -50,8 +50,6 @@ http://localhost:8989
 |'-t'           |using bash TTY mode (pseudo-TTY)                              |
 
 
-###docker-hub
-https://hub.docker.com/r/modenaf360/gotty-docker/ 
 
 ## Reference
 [1].https://github.com/yudai/gotty  

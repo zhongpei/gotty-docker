@@ -1,8 +1,7 @@
 my-gotty:
+  image: zhongpei/gotty:latest
   hostname: mygotty
   ports:
-  - 8989:8080
+     - 8989:8080
   tty: true
-  image: modenaf360/gotty:latest
   stdin_open: true
-  tty: true                     #using bash TTY mode (pseudo-TTY)
